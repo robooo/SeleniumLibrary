@@ -9,3 +9,4 @@ pygments
 # Include other dev dependencies from requirements-dev.txt which in turn
 # includes normal dependencies from requirements.txt.
 -r requirements-dev.txt
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
