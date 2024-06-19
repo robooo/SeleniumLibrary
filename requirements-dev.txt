@@ -8,3 +8,4 @@ approvaltests >= 0.2.4
 # Include normal dependencies from requirements.txt. Makes it possible to use
 # requirements-dev.txt as a single requirement file in PyCharm and other IDEs.
 -r requirements.txt
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
